@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { JavascriptComponent } from './javascript/javascript.component';
 import { NavbarComponent } from './navbar.component';
 import { PHPComponent } from './php/php.component';
+import {Routing} from "./app.routing.";
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { PHPComponent } from './php/php.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    Routing
   ],
   providers: [],
   bootstrap: [AppComponent]
