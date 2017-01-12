@@ -4,12 +4,21 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
+import { HTMLComponent } from './html/html.component';
+import { HomeComponent } from './home/home.component';
+import { JavascriptComponent } from './javascript/javascript.component';
+import { NavbarComponent } from './navbar.component';
+import { PHPComponent } from './php/php.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    HTMLComponent,
+    HomeComponent,
+    JavascriptComponent,
+    NavbarComponent,
+    PHPComponent
   ],
   imports: [
     BrowserModule,

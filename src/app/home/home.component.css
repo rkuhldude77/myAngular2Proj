@@ -1,0 +1,19 @@
+body{
+  background-image: url("../../assets/img/vballback.jpeg");
+  background-repeat: repeat;
+}
+
+.home-container{
+  text-align: center;
+  align-content: center;
+  color: black;
+}
+
+.h3-t{
+  color: #333333;
+}
+
+table{
+  margin: auto;
+  color: white;
+}
