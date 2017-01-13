@@ -1,3 +1,7 @@
-/**
- * Created by kuhldude_77 on 1/11/17.
- */
+import {RouterModule} from '@angular/router';
+
+import {JavascriptComponent} from './javascript.component';
+
+export const JavascriptRouting = RouterModule.forChild([
+  {path: 'javascript', component: JavascriptComponent}
+])

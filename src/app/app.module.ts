@@ -10,6 +10,9 @@ import { JavascriptComponent } from './javascript/javascript.component';
 import { NavbarComponent } from './navbar.component';
 import { PHPComponent } from './php/php.component';
 import {Routing} from "./app.routing.";
+import {HTMLRouting} from "./html/html.routing";
+import {PHPRouting} from "./php/php.routing";
+import {JavascriptRouting} from "./javascript/javascript.routing";
 
 
 @NgModule({
@@ -25,6 +28,9 @@ import {Routing} from "./app.routing.";
     BrowserModule,
     FormsModule,
     HttpModule,
+    HTMLRouting,
+    PHPRouting,
+    JavascriptRouting,
     Routing
   ],
   providers: [],

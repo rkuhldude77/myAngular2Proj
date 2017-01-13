@@ -7,9 +7,27 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a routerLink="">Home <span class="sr-only">(current)</span></a></li>
-        <li><a routerLink="html">HTML 1430</a></li>
-        <li><a routerLink="php">PHP 2440</a></li>
-        <li><a routerLink="javascript">Javascipt 2470</a></li>
+        <li class="dropdown">
+          <a routerLink="html">HTML 1430<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a>1430 HTML Home</a></li>
+            <li><a>other</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a routerLink="php">PHP 2440<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a>2440 PHP Home</a></li>
+            <li><a>other</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a routerLink="javascript">Javascipt 2470<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a>2470 Javascript Home</a></li>
+            <li><a>other</a></li>
+          </ul>
+        </li>
         </ul>
       </div>
   </div>

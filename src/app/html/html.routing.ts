@@ -1,3 +1,7 @@
-/**
- * Created by kuhldude_77 on 1/11/17.
- */
+import {RouterModule} from '@angular/router';
+
+import {HTMLComponent} from './html.component';
+
+export const HTMLRouting = RouterModule.forChild([
+  {path: 'html', component: HTMLComponent}
+])

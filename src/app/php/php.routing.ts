@@ -1,3 +1,7 @@
-/**
- * Created by kuhldude_77 on 1/11/17.
- */
+import {RouterModule} from '@angular/router';
+
+import {PHPComponent} from './php.component';
+
+export const PHPRouting = RouterModule.forChild([
+  {path: 'php', component: PHPComponent}
+])
