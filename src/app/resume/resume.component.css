@@ -1,0 +1,15 @@
+tr{
+  color: black;
+}
+
+.main-container{
+  padding: 30px;
+}
+
+.heading-alignment{
+  text-align: center;
+}
+
+.my-info{
+  text-decoration: underline;
+}

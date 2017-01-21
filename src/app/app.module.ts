@@ -22,6 +22,7 @@ import { MyFriendsComponent } from './html/my-friends/my-friends.component';
 import { PapaBComponent } from './html/papa-b/papa-b.component';
 import { SportsComponent } from './html/sports/sports.component';
 import { ResumeComponent } from './resume/resume.component';
+import {AccordionModule, AccordionConfig, TabsModule, TabsetConfig} from "ng2-bootstrap";
 
 
 @NgModule({
@@ -43,15 +44,20 @@ import { ResumeComponent } from './resume/resume.component';
     ResumeComponent
   ],
   imports: [
+    AccordionModule,
     BrowserModule,
     FormsModule,
     HttpModule,
     Routing,
     JavascriptRouting,
     PHPRouting,
-    HTMLRouting
+    HTMLRouting,
+    TabsModule
   ],
-  providers: [],
+  providers: [
+    AccordionConfig,
+    TabsetConfig
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
