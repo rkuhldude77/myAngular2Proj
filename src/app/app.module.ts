@@ -23,6 +23,7 @@ import { PapaBComponent } from './html/papa-b/papa-b.component';
 import { SportsComponent } from './html/sports/sports.component';
 import { ResumeComponent } from './resume/resume.component';
 import {AccordionModule, AccordionConfig, TabsModule, TabsetConfig} from "ng2-bootstrap";
+import {DraggableModule} from "ng2-draggable";
 
 
 @NgModule({
