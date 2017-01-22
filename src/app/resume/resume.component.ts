@@ -12,4 +12,9 @@ export class ResumeComponent implements OnInit {
   ngOnInit() {
   }
 
+  public status: Object = {
+    isFirstOpen: true,
+    isFirstDisabled: false
+  };
+
 }

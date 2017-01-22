@@ -2,6 +2,10 @@ tr{
   color: black;
 }
 
+td{
+  padding: 10px;
+}
+
 .main-container{
   padding: 30px;
 }
@@ -12,4 +16,16 @@ tr{
 
 .my-info{
   text-decoration: underline;
+}
+
+.col-one{
+  background-color: #e83b3b;
+}
+
+.col-two{
+  background-color: #0776f7;
+}
+
+.col-three{
+  background-color: #46f259;
 }

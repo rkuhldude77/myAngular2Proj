@@ -3,14 +3,14 @@
 <b>9508 S. Kilmuir Cir. South Jordan UT, 84095<br>801-864-8358</b></div>
 <br>
 <accordion>
-  <accordion-group heading="EDUCATION">
+  <accordion-group heading="EDUCATION" [isOpen]="status.isFirstOpen" [isDisabled]="isFirstDisabled">
   <tabset>
     <tab heading="High School">
       <table>
         <colgroup>
-          <col span="1" style="background-color: #e83b3b" width="15%">
-          <col style="background-color: #0776f7" width="35%">
-          <col style="background-color: #46f259" width="50%">
+          <col span="1" class="col-one" width="15%">
+          <col class="col-two" width="35%">
+          <col class="col-three" width="50%">
         </colgroup>
         <tr>
           <th>Year:</th>
@@ -28,9 +28,9 @@
     <tab heading="SLCC">
       <table>
         <colgroup>
-          <col span="1" style="background-color: #e83b3b" width="10%">
-          <col style="background-color: #0776f7" width="25%">
-          <col style="background-color: #46f259" width="65%">
+          <col span="1" class="col-one" width="10%">
+          <col class="col-two" width="25%">
+          <col class="col-three" width="65%">
         </colgroup>
         <tr>
           <th>Year:</th>
@@ -48,9 +48,9 @@
     <tab heading="UVU">
       <table>
         <colgroup>
-          <col span="1" style="background-color: #e83b3b" width="15%">
-          <col style="background-color: #0776f7" width="35%">
-          <col style="background-color: #46f259" width="50%">
+          <col span="1" class="col-one" width="15%">
+          <col class="col-two" width="35%">
+          <col class="col-three" width="50%">
         </colgroup>
         <tr>
           <th>Year:</th>
@@ -72,9 +72,9 @@
     <tab heading="T-Mobile">
       <table>
         <colgroup>
-          <col span="1" style="background-color: #e83b3b" width="10%">
-          <col style="background-color: #0776f7" width="20%">
-          <col style="background-color: #46f259" width="70%">
+          <col span="1" class="col-one" width="10%">
+          <col class="col-two" width="20%">
+          <col class="col-three" width="70%">
         </colgroup>
         <tr>
           <th>Year:</th>
@@ -96,9 +96,9 @@
     <tab heading="U.S. Bank">
       <table>
         <colgroup>
-          <col span="1" style="background-color: #e83b3b" width="10%">
-          <col style="background-color: #0776f7" width="15%">
-          <col style="background-color: #46f259" width="75%">
+          <col span="1" class="col-one" width="10%">
+          <col class="col-two" width="15%">
+          <col class="col-three" width="75%">
         </colgroup>
         <tr>
           <th>Year:</th>
@@ -123,9 +123,9 @@
     <tab heading="Banner Bank">
       <table>
         <colgroup>
-          <col span="1" style="background-color: #e83b3b" width="10%">
-          <col style="background-color: #0776f7" width="20%">
-          <col style="background-color: #46f259" width="70%">
+          <col span="1" class="col-one" width="10%">
+          <col class="col-two" width="20%">
+          <col class="col-three" width="70%">
         </colgroup>
         <tr>
           <th>Year:</th>
@@ -150,19 +150,17 @@
   <table>
     <colgroup>
       <col span="1" width="15%">
-      <col style="background-color: #46f259" width="70%">
+      <col class="col-three" width="70%">
     </colgroup>
     <tr>
       <td><img alt="" src="../../assets/img/SoftwareDevelopment.jpg"/></td>
       <td><b>Why I Am The Perfect Choice</b>
-        <p>I am currently working towards a Bachelors Degree in Computer Science at Weber State University.
+        <p>I am currently working towards a Bachelors Degree in Computer Science at Utah Valley University.
           I have finished and received an Associates Degree with Certificates of Proficiency
-          in Computer Fundamentals and Web Development from Salt Lake Community College. I am
-          a single class away from receiving a third certificate in Software Development and I
-          enjoy technology so much that I plan to earn a fourth certificate in Mobile Development
-          as well. I am also teaching myself Ruby on Rails on the side. I am a quick learner and
-          enjoy learning anything I can about computers and how to program them. I have a
-          competitive personality and try to be the best at everything I do. I will work hard
+          in Computer Fundamentals, Web Development, Mobile Development, and Software Development from
+          Salt Lake Community College. I am currently employed at BizVision and I am learning Angular 2.
+          I am a quick learner and enjoy learning anything I can about computers and how to program them.
+          I have a competitive personality and try to be the best at everything I do. I will work hard
           to accomplish my tasks, keep deadlines, and to learn and develop my skills to provide the best
           work experience possible for myself and my peers.</p></td>
     </tr>
