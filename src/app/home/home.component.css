@@ -1,12 +1,9 @@
-body{
-  background-image: url("../../assets/img/vballback.jpeg");
-  background-repeat: repeat;
-}
-
 .home-container{
+  padding-top: 105px;
   text-align: center;
   align-content: center;
   color: black;
+  background-image: url("../../assets/img/vballback.jpeg");
 }
 
 .h3-t{
@@ -16,4 +13,6 @@ body{
 table{
   margin: auto;
   color: white;
+  border: none;
+  cellpadding: 2;
 }
