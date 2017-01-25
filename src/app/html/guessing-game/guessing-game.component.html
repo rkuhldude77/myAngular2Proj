@@ -1,3 +1,13 @@
-<h1>
-  guessing-game works!
-</h1>
+<div class="game-container">
+  <h1>KuhlGame Guessing Game</h1>
+  <form name='guessForm'>
+    Your Guess: <input type="text" name="userGuess" value='50' size='10' maxlength='2' [(ngModel)]="userGuess"/>
+    <br/><br/>
+    <img *ngIf="imgSrc != ''" [src]="imgSrc" name='thePicture'>
+    <br/><br/>
+    <button class="btn btn-primary" type='button' (click)="checkGuess()">Guess</button>
+    <button class="btn btn-primary" type='button' (click)="resetGame()">Reset</button>
+    <br/><br/>
+    <button class="btn btn-primary" type='button' (click)="exit()">Exit</button>
+  </form>
+</div>
