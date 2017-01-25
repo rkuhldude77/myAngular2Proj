@@ -1,3 +1,52 @@
-<h1>
-  my-friends works!
-</h1>
+<div class="friend-container">
+  <accordion [closeOthers]="oneAtATime">
+    <accordion-group heading="Robert Kuhlman" [isOpen]="status.isFirstOpen">
+      <div class="info-container">
+        <img src="../../../assets/img/my-friends/RobertKuhlmanTux.jpg" alt="Me">
+        <ul class="info">
+          <li><h4>Me</h4></li>
+          <li><b>Phone:</b> 801-864-8358</li>
+          <li><b>Home Town:</b> South Jordan</li>
+          <li><b>Email:</b> robertkuhlman@nomail.com</li>
+        </ul>
+        <br>
+      </div>
+    </accordion-group>
+    <accordion-group heading="Jessica Kuhlman">
+      <div class="info-container">
+        <img src="../../../assets/img/my-friends/JessicaWife.jpg" alt="Wife">
+        <ul class="info">
+          <li><h4>Wife</h4></li>
+          <li><b>Phone:</b> 801-123-4567</li>
+          <li><b>Home Town:</b> South Jordan</li>
+          <li><b>Email:</b> jessica@noemail.com</li>
+        </ul>
+        <br>
+      </div>
+    </accordion-group>
+    <accordion-group heading="Isaac Crookston">
+      <div class="info-container">
+        <img src="../../../assets/img/my-friends/IsaacSki.jpg" alt="Isaac">
+        <ul class="info">
+          <li><h4>Best Friend 1</h4></li>
+          <li><b>Phone:</b> 801-123-4567</li>
+          <li><b>Home Town:</b> Herriman</li>
+          <li><b>Email:</b> isaac@noemail.com</li>
+        </ul>
+        <br>
+      </div>
+    </accordion-group>
+    <accordion-group heading="Zach Peterson">
+      <div class="info-container">
+        <img src="../../../assets/img/my-friends/ZachFace.jpg" alt="Zach">
+        <ul class="info">
+          <li><h4>Best Friend 2</h4></li>
+          <li><b>Phone:</b> 801-123-4567</li>
+          <li><b>Home Town:</b> Midvale</li>
+          <li><b>Email:</b> zach@noemail.com</li>
+        </ul>
+        <br>
+      </div>
+    </accordion-group>
+  </accordion>
+</div>

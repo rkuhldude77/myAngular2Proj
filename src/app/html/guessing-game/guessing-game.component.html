@@ -1,13 +1,19 @@
 <div class="game-container">
   <h1>KuhlGame Guessing Game</h1>
+  <h4>Guess a number between 1 and 100</h4>
   <form name='guessForm'>
     Your Guess: <input type="text" name="userGuess" value='50' size='10' maxlength='2' [(ngModel)]="userGuess"/>
-    <br/><br/>
-    <img *ngIf="imgSrc != ''" [src]="imgSrc" name='thePicture'>
-    <br/><br/>
+    <br><br>
+    <h4>{{highLow}}</h4>
+    <img *ngIf="imgSrc != ''" [src]="imgSrc">
+    <br><br>
     <button class="btn btn-primary" type='button' (click)="checkGuess()">Guess</button>
     <button class="btn btn-primary" type='button' (click)="resetGame()">Reset</button>
-    <br/><br/>
+    <br><br>
     <button class="btn btn-primary" type='button' (click)="exit()">Exit</button>
+    <br><br>
+    <div *ngIf="cheat">{{theNumber}}</div>
+    <button class="btn btn-danger btn-xs" (click)="showCheat()">Show Cheat</button>
+
   </form>
 </div>

@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MyFriendsComponent implements OnInit {
 
+  private oneAtATime: boolean = true;
+  private status: any = {
+    isFirstOpen: true,
+    isOpen: false
+  };
+
   constructor() { }
 
   ngOnInit() {
