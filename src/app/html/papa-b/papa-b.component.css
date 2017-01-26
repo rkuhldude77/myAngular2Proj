@@ -1,0 +1,12 @@
+.papa-b-container{
+  background-image: url('../../../assets/img/papab-1430/pizza.jpeg');
+  background-size:100%;
+  height: calc(100vh - 24px);
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+table{
+  margin: auto;
+  background: none;
+}
