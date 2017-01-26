@@ -5,3 +5,7 @@ h1{
 table{
   margin: auto;
 }
+
+.sports-container{
+  height: calc(100vh - 24px);
+}

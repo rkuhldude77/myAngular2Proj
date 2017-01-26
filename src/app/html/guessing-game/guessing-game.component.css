@@ -1,3 +1,4 @@
 .game-container{
   text-align: center;
+  height: calc(100vh - 24px);
 }
