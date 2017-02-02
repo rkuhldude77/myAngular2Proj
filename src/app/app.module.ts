@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
+import {AccordionModule, AccordionConfig, TabsModule, TabsetConfig} from "ng2-bootstrap";
+
 import { AppComponent } from './app.component';
 import { HTMLComponent } from './html/html.component';
 import { HomeComponent } from './home/home.component';
@@ -22,8 +24,8 @@ import { MyFriendsComponent } from './html/my-friends/my-friends.component';
 import { PapaBComponent } from './html/papa-b/papa-b.component';
 import { SportsComponent } from './html/sports/sports.component';
 import { ResumeComponent } from './resume/resume.component';
-import {AccordionModule, AccordionConfig, TabsModule, TabsetConfig} from "ng2-bootstrap";
-import {DraggableModule} from "ng2-draggable";
+import { PHPHomeComponent } from './php/home/home.component';
+
 
 
 @NgModule({
@@ -42,7 +44,8 @@ import {DraggableModule} from "ng2-draggable";
     MyFriendsComponent,
     PapaBComponent,
     SportsComponent,
-    ResumeComponent
+    ResumeComponent,
+    PHPHomeComponent
   ],
   imports: [
     AccordionModule,
