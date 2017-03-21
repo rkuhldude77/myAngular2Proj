@@ -1,11 +1,11 @@
-.javascript-container{
+.oop-container{
   text-align: center;
   height: calc(100vh - 24px);
 }
 
-.javascript-info-container{
+.oop-info-container{
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
-  width: 500px;
+  width: 300px;
 }

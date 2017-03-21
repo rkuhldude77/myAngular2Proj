@@ -25,6 +25,8 @@ import { PapaBComponent } from './html/papa-b/papa-b.component';
 import { SportsComponent } from './html/sports/sports.component';
 import { ResumeComponent } from './resume/resume.component';
 import { PHPHomeComponent } from './php/home/home.component';
+import { OopComponent } from './javascript/oop/oop.component';
+import { JsonComponent } from './javascript/json/json.component';
 
 
 
@@ -45,7 +47,9 @@ import { PHPHomeComponent } from './php/home/home.component';
     PapaBComponent,
     SportsComponent,
     ResumeComponent,
-    PHPHomeComponent
+    PHPHomeComponent,
+    OopComponent,
+    JsonComponent
   ],
   imports: [
     AccordionModule,

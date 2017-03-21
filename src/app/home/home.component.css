@@ -4,6 +4,7 @@
   align-content: center;
   color: black;
   background-image: url("../../assets/img/vballback.jpeg");
+  height: calc(100vh - 24px);
 }
 
 .h3-t{
