@@ -7,37 +7,29 @@ import { Component, OnInit } from '@angular/core';
 })
 export class JsonComponent implements OnInit {
 
-  private output = "";
   private list: {} = [
   {
-    "display": "OOP Alert"
+    "display": "OOP Alert",
+    "url": "../oop/"
   },
   {
-    "display": "JSON"
+    "display": "JSON",
+    "url": "../json/"
   },
   {
-    "display": "AJAX"
+    "display": "AJAX",
+    "url": "../ajax/"
   },
   {
-    "display": "Papa Botulism"
+    "display": "Papa Botulism",
+    "url": "../papa-b-form/"
   }
 ];
 
   constructor() { }
 
   ngOnInit() {
-    this.createList(this.list);
-  }
 
-  createList(list){
-    let i;
-    for (i = 0; i < list.length; i++)
-    {
-      this.output += '<li>' +
-        list[i].display + '</li>';
-    }
-    console.log(this.output);
-    return this.output;
   }
 
 }
