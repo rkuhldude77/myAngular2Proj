@@ -1,0 +1,35 @@
+.ajax-container{
+  text-align: center;
+  height: calc(100vh - 24px);
+}
+
+button {
+  color: yellowgreen;
+  font-size: 20px;
+}
+
+button:hover{
+  color: darkred;
+}
+
+.btn{
+  line-height: 12px;
+}
+
+.btn-primary-outline{
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.ajax-iframe-container{
+  margin-top: 50px;
+  width: 100%;
+  height: calc(100vh - 24px);
+}
+
+h4{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 300px;
+}

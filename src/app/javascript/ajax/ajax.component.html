@@ -1,3 +1,12 @@
-<p>
-  ajax works!
-</p>
+<div class="ajax-container">
+  <h1>AJAX</h1>
+
+  <div *ngFor="let site of sites">
+    <button class="btn btn-primary-outline" (click)="getUrl(site.url)">{{site.display}}</button>
+  </div>
+
+  <div>
+    <h4>This assignment shows how to get info from a JSON and link to external websites.</h4>
+      <iframe class="ajax-iframe-container" [src]="trustedUrl"></iframe>
+  </div>
+</div>
