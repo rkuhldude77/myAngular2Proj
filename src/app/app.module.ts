@@ -27,6 +27,8 @@ import { ResumeComponent } from './resume/resume.component';
 import { PHPHomeComponent } from './php/home/home.component';
 import { OopComponent } from './javascript/oop/oop.component';
 import { JsonComponent } from './javascript/json/json.component';
+import { AjaxComponent } from './javascript/ajax/ajax.component';
+import { PapaBFormComponent } from './javascript/papa-b-form/papa-b-form.component';
 
 
 
@@ -49,7 +51,9 @@ import { JsonComponent } from './javascript/json/json.component';
     ResumeComponent,
     PHPHomeComponent,
     OopComponent,
-    JsonComponent
+    JsonComponent,
+    AjaxComponent,
+    PapaBFormComponent
   ],
   imports: [
     AccordionModule,

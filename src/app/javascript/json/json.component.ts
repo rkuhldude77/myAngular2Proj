@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-json',
+  selector: 'json',
   templateUrl: './json.component.html',
   styleUrls: ['./json.component.css']
 })
