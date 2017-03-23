@@ -26,12 +26,32 @@
 }
 
 .pizza-form-sm-container{
-  width: 250px;
+  width: 330px;
   height: 560px;
   margin-top: 25px;
-  margin-left: 300px;
+  margin-left: 250px;
   background-color: #ffff66;
   border-radius: 20px;
   padding: 20px;
   float: left;
+}
+
+td{
+  padding: 10px;
+  float: left;
+}
+
+table{
+  background-color: #ffff66;
+  color: black;
+}
+
+h4{
+  text-align: center;
+}
+
+.progress{
+  margin: auto;
+  width: 900px;
+  color:greenyellow;
 }

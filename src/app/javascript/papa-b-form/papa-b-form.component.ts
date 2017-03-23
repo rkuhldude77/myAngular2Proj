@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {PapaService} from "./papa-b-form.service";
 
 @Component({
   selector: 'papa-b-form',
@@ -7,9 +8,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PapaBFormComponent implements OnInit {
 
-  constructor() { }
+  private size: string[];
+  private crust: string[];
+  private toppings: string[];
+  private progress: number = 80;
+
+  constructor(private papaService: PapaService) { }
 
   ngOnInit() {
+    this.size = this.papaService.loadSize();
+    this.crust = this.papaService.loadCrust();
+    this.toppings = this.papaService.loadToppings();
   }
+
+
 
 }
