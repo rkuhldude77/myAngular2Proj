@@ -1,0 +1,37 @@
+.pizza-body{
+  background-image:url("../../../assets/img/papa-b-2470/pizza.jpeg");
+  background-size:100%;
+  background-repeat: no-repeat;
+  height: calc(100vh - 24px);
+}
+
+.pizza-form-title{
+  text-align: center;
+}
+
+.pizza-form-container{
+  width: 1024px;
+  height: 700px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 50px;
+}
+
+.form{
+  width: 400px;
+  float: left;
+  margin-top: 25px;
+}
+
+.pizza-form-sm-container{
+  width: 250px;
+  height: 560px;
+  margin-top: 25px;
+  margin-left: 300px;
+  background-color: #ffff66;
+  border-radius: 20px;
+  padding: 20px;
+  float: left;
+}
