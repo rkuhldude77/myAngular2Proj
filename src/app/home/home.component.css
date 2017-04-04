@@ -3,7 +3,7 @@
   text-align: center;
   align-content: center;
   color: black;
-  background-image: url("../../assets/img/vballback.jpeg");
+  background-image: url("../../assets/img/vballback.jpg");
   height: calc(100vh - 24px);
 }
 
@@ -15,5 +15,4 @@ table{
   margin: auto;
   color: white;
   border: none;
-  cellpadding: 2;
 }
