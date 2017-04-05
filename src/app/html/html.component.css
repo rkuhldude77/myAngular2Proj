@@ -24,3 +24,7 @@ a{
   width: 240px;
   height: 390px;
 }
+
+table{
+  height: calc(100vh - 24px);
+}

@@ -4,9 +4,23 @@
   height: calc(100vh - 24px);
   background-repeat: no-repeat;
   text-align: center;
+  color: white;
 }
 
 table{
   margin: auto;
   background: none;
+}
+
+.form-container {
+  width: 500px;
+  margin: auto;
+}
+
+.crust{
+  color: black;
+}
+
+b{
+  font-size: 25px;
 }
