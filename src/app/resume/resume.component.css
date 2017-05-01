@@ -29,3 +29,11 @@ td{
 .col-three{
   background-color: #46f259;
 }
+
+.skills-col-light{
+  background-color: lightgrey;
+}
+
+.skills-col-dark{
+  background-color: grey;
+}
