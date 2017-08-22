@@ -158,27 +158,13 @@
         </tr>
         <tr>
           <td>
-            <ul>
-              <li>Angular 2</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Javascript</li>
-              <li>jQuery</li>
-              <li>NodeJS</li>
-              <li>Java</li>
-              <li>Android (Java)</li>
-              <li>iOS (Swift)</li>
+            <ul *ngFor="let p of programmingSkills">
+              <li>{{p}}</li>
             </ul>
           </td>
           <td>
-            <ul>
-              <li>Management</li>
-              <li>Leadership/Team Building</li>
-              <li>Sales Management</li>
-              <li>Inventory Management</li>
-              <li>Sales</li>
-              <li>Customer Service</li>
-              <li>Microsoft Office (Word, Excel, Powerpoint)</li>
+            <ul *ngFor="let b of businessSkills">
+              <li>{{b}}</li>
             </ul>
           </td>
         </tr>

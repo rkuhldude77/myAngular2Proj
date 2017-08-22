@@ -30,6 +30,7 @@ import { JsonComponent } from './javascript/json/json.component';
 import { AjaxComponent } from './javascript/ajax/ajax.component';
 import { PapaBFormComponent } from './javascript/papa-b-form/papa-b-form.component';
 import {PapaService} from "./javascript/papa-b-form/papa-b-form.service";
+import {ResumeService} from "./resume/resume.service";
 
 
 
@@ -70,7 +71,8 @@ import {PapaService} from "./javascript/papa-b-form/papa-b-form.service";
   providers: [
     AccordionConfig,
     TabsetConfig,
-    PapaService
+    PapaService,
+    ResumeService
   ],
   bootstrap: [AppComponent]
 })
