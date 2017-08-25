@@ -4,6 +4,7 @@ Conversion of HTML, CSS, PHP, Javascript, JSON, and Jquery to the new Angular 2 
 Using Bootstrap for css.
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.24.
+angular-cli has been updated for this project to version 1.3.0
 
 ## Purpose
 This project was created in an effort to reproduce all of the web design projects required at Salt Lake Community College.
